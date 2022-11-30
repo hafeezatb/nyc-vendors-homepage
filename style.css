@@ -1,0 +1,81 @@
+/*
+This is a good layout for a mobile-first CSS template.
+Following this flow will minimize the number of styles you need to write and will ensure you are thinking, designing and developing mobile-first.
+Most of your styles get written like standard CSS, but for your mobile presentation. Generally speaking, a good mobile presention will stretch out nicely for larger screens.
+
+Sometimes, when we stretch out to larger screens, we need to make minor tweaks for the larger devices -- you can make these tweaks in the tablet media query, or if the issue exists on desktop only, the desktop media query.
+You will find this is far easier than the opposite task of using CSS to cram your desktop experience into a mobile device.
+*/
+/*********************************************************************
+ LOADS IN A NICE RESET TO ENSURE ALL BROWSERS HAVE THE SAME BASE STYLES
+*********************************************************************/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+/** SET BORDER BOX EVERYWHERE */
+* {
+    box-sizing: border-box;
+}
+/** APPLY BASE TAG STYLES */
+body,
+html {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+}
+
+body{background-color: #d1eaf0ea;}
+
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+    padding-right: 1em;
+    padding-left: 1em;
+    text-align: left;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Gowun Batang', serif;
+}
+
+h2 {
+    font-family: 'Montagu Slab', serif;
+    font-size: x-large;
+    text-align: center;
+    color: black;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+h4 {
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+    line-height: 0.75em;
+}
+
+.image {
+  display: block;
+  margin: 15px auto;
+  max-width: 700px;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+h3 {
+    line-height:0.9em;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-family: 'Montagu Slab', serif;
+}
+
+.container {
+    margin-left: 30px;
+    margin-right: 30px;
+}
