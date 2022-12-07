@@ -22,6 +22,7 @@ body,
 html {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    
 }
 
 body{background-color: #fffcdeea;}
@@ -35,9 +36,24 @@ p {
     padding-right: 1em;
     padding-left: 1em;
     text-align: center;
-    font-weight: 700;
-    font-size: 16px;
-    font-family: 'Gowun Batang', serif;
+  
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.closing {
+    text-align: left;
+}
+
+ul {
+    
+    font-size: 20px;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.list {
+    max-width: 600px;
+    margin: 0 auto;
 }
 
 h2 {
