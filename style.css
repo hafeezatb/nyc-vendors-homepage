@@ -114,6 +114,10 @@ h3 {
     font-family: 'Montagu Slab', serif;
 }
 
+.attribute {
+    color:rgb(7, 121, 123);
+}
+
 .container {
     margin-left: 30px;
     margin-right: 30px;
