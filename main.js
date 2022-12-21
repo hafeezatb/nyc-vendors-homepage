@@ -17,8 +17,8 @@ audio_btn.addEventListener("click", e => {
 });
 
 const audio_playlist = [
-    {src: "audio/march-chants.wav", volume: 20},
-    {src: "audio/march-walking-past-me.wav", volume: 20},
+    {src: "audio/march-chants.wav", volume: 15},
+    {src: "audio/march-walking-past-me.wav", volume: 15},
     {src: "audio/woman-storysharing-story.wav", volume: 100}
 ];
 

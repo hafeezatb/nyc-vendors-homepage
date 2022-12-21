@@ -44,6 +44,28 @@ p {
 .closing {
     text-align: left;
 }
+a:link {
+    color: rgb(14, 161, 166);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: rgb(7, 121, 123);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: rgb(113, 229, 245);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .espanol {
+    color:rgb(7, 121, 123);
+  }
+  
 
 ul {
     
@@ -54,6 +76,7 @@ ul {
 .list {
     max-width: 600px;
     margin: 0 auto;
+    line-height: 30px;
 }
 
 h2 {
@@ -98,6 +121,12 @@ h3 {
 
 .published > .image {
     flex-basis: calc(33% - 2.5px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.banner,.image {
+    margin:auto;
 }
 
 /** video setup */
